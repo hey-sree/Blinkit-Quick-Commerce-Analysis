@@ -1,112 +1,125 @@
-<h1 align="center">🛒 Blinkit Quick Commerce Analysis</h1>
+🛒 #Blinkit Quick Commerce Analysis
 
-<h3 align="center">End-to-End Data Analytics Project | Excel · SQL · Python · Power BI</h3>
+End-to-End Data Analytics Project | Excel · SQL · Python · Power BI
+Analyzing sales performance, customer behavior, and product insights for Blinkit to improve quick-commerce growth and operational efficiency.
 
-<p align="center">Analyzing sales performance, customer behavior, and product insights for Blinkit to improve quick-commerce growth and operational efficiency.</p>
+🎯 ##Business Problem
 
----
+Quick-commerce platforms like Blinkit rely on speed + efficiency to drive customer satisfaction and retention. To stay competitive, businesses need insights into sales trends, product demand, customer preferences, and profitability.
 
-<h2>🎯 Business Problem</h2>
+This project provides a 360° analysis of Blinkit’s operations—from raw dataset → cleaning → SQL insights → Python EDA → Power BI storytelling dashboard.
 
-Quick-commerce platforms like <b>Blinkit</b> rely on <i>speed + efficiency</i> to drive customer satisfaction and retention.  
-To stay competitive, businesses need insights into sales trends, product demand, customer preferences, and profitability.  
+🛠 ##Tools & Technologies
 
-This project provides a <b>360° analysis</b> of Blinkit’s operations — from raw dataset → cleaning → SQL insights → Python EDA → Power BI storytelling dashboard.
+1. Excel → Data cleaning, preparation, and formatting
 
----
+2. SQL → Querying dataset to extract sales insights
 
-<h2>🛠 Tools & Technologies</h2>
+3. Python → Exploratory Data Analysis (EDA), data visualization
 
-- <b>Excel</b> → Data cleaning, preparation, and formatting  
-- <b>SQL</b> → Querying dataset to extract sales insights  
-- <b>Python</b> → Exploratory Data Analysis (EDA), data visualization  
-- <b>Power BI</b> → Interactive dashboard for storytelling and decision-making  
+4. Power BI → Interactive dashboard for storytelling and decision-making
 
----
+🗂 ##Dataset
 
-<h2>🗂 Dataset</h2>
+- File: Blinkit Dataset (CSV/Excel)
 
-- File: Blinkit Dataset (CSV/Excel)  
-- Size: ~8K+ records  
-- Features: Item Identifier, Item Type, Outlet Info, Sales, Visibility, Fat Content, Location, Outlet Size, etc.  
-- Source: Open-source Blinkit Quick Commerce dataset (for analytics & learning purposes)  
+- Size: ~8K+ records
 
----
+- Features: Item Identifier, Item Type, Outlet Info, Sales, Visibility, Fat Content, Location, Outlet Size, etc.
 
-<h2>🔍 Step-by-Step Workflow</h2>
+- Source: Open-source Blinkit Quick Commerce dataset (for analytics & learning purposes)
 
-<b>1. Excel Cleaning & Prep</b>  
-- Removed nulls, duplicates, formatting errors  
-- Standardized categorical fields (e.g., Fat Content → Low Fat, Regular)  
-- Derived new columns (e.g., Outlet_Age, Item_Category_Group)  
+🔍##Step-by-Step Workflow
 
-<b>2. SQL Exploration</b>  
-- Imported dataset into MySQL  
-- Wrote 15+ queries to analyze:  
-  - Sales by Item Type & Outlet  
-  - Impact of Outlet Size & Location on Revenue  
-  - Top-selling vs low-performing products  
-  - Fat Content vs Sales patterns  
+1. Excel Cleaning & Prep
 
-<b>3. Python EDA (Jupyter Notebook)</b>  
-- Performed univariate & bivariate analysis  
-- Distribution of Item Sales, Item Visibility, MRP  
-- Correlation heatmaps & outlier detection  
-- Grouped insights by Item Type, Outlet Location, and Fat Content  
+- Removed nulls, duplicates, formatting errors
 
-<b>4. Power BI Dashboard</b>  
-- Built an executive dashboard to track KPIs:  
-  - Total Sales, Avg Sales per Outlet, Most Profitable Outlet, Top Product Categories  
+- Standardized categorical fields (e.g., Fat Content → Low Fat, Regular)
 
-<b>Visuals:</b>  
-- Sales by Item Type  
-- Outlet Size vs Sales  
-- Fat Content Contribution  
-- Location-based Sales Heatmap  
-- Filters: Item Type, Outlet Type, Outlet Size  
-- Used DAX for metrics like <i>Total Sales Growth %</i>  
+- Derived new columns (e.g., Outlet_Age, Item_Category_Group)
 
----
+2. SQL Exploration
 
-<h2>📊 Power BI Dashboard</h2>
+- Imported dataset into MySQL
 
-Here’s a snapshot of the interactive dashboard 👇  
+- Wrote 15+ queries to analyze:
+
+- Sales by Item Type & Outlet
+
+- Impact of Outlet Size & Location on Revenue
+
+- Top-selling products vs low-performing items
+
+- Fat Content vs Sales patterns
+
+3. Python EDA (Jupyter Notebook)
+
+- Performed univariate & bivariate analysis
+
+- Distribution of Item Sales, Item Visibility, MRP
+
+- Correlation heatmaps & outlier detection
+
+- Grouped insights by Item Type, Outlet Location, and Fat Content
+
+4. ##Power BI Dashboard
+
+- Built an executive dashboard to track KPIs:
+
+- Total Sales, Avg Sales per Outlet, Most Profitable Outlet, Top Product Categories
+
+##Visuals:
+
+- Sales by Item Type
+
+- Outlet Size vs Sales
+
+- Fat Content Contribution
+
+- Location-based Sales Heatmap
+
+- Filters: Item Type, Outlet Type, Outlet Size
+
+- Used DAX for metrics like Total Sales Growth %
+
+## 📊 Power BI Dashboard
+
+Here’s a snapshot of the interactive dashboard:  
 
 ![Blinkit Dashboard](Images/dashboard.png)
 
----
 
-<h2>📁 Project Folder Structure</h2>
+## 📁Project Folder Structure
 
 Blinkit-Quick-Commerce-Analysis/
 ├── 📊 PowerBI/
-│ └── Blinkit_Dashboard.pbix
+│   └── Blinkit_Dashboard.pbix
 ├── 🐍 Python/
-│ └── blinkit_EDA.ipynb
+│   └── blinkit_EDA.ipynb
 ├── 🧮 SQL/
-│ └── Blinkit_Queries.sql
+│   └── Blinkit_Queries.sql
 ├── 📈 Excel/
-│ └── blinkit_cleaned.xlsx
+│   └── blinkit_cleaned.xlsx
 ├── 📑 Docs/
-│ ├── README.md
-│ ├── Project_Report.docx
-│ └── Dashboard_Screenshot.png
+│   ├── README.md
+│   ├── Project_Report.docx
+│   └── Dashboard_Screenshot.png
 
+## ✅ Key Outcomes
 
----
+- Delivered an end-to-end analytics pipeline from raw Blinkit dataset → cleaned → insights → dashboard
 
-<h2>✅ Key Outcomes</h2>
+- Identified top-performing categories and outlets
 
-- Delivered an <b>end-to-end analytics pipeline</b> from raw Blinkit dataset → cleaned → insights → dashboard  
-- Identified <b>top-performing categories and outlets</b>  
-- Found actionable insights on how outlet size, location & product mix impact revenue  
-- Built a <b>recruiter-ready portfolio project</b>  
+- Found actionable insights on how outlet size, location & product mix impact revenue
 
----
+- Built a recruiter-ready portfolio project
 
-<h2>📌 Future Enhancements</h2>
+##📌 Future Enhancements
 
-- Predictive modeling: Forecast sales by Item/Outlet  
-- Automate reporting with Power Automate  
-- Deploy Power BI dashboard to Power BI Service for online access  
+- Predictive modeling: Forecast sales by Item/Outlet
 
+- Automate reporting with Power Automate
+
+- Deploy Power BI dashboard to Power BI Service for online access
