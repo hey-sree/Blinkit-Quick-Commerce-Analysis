@@ -1,15 +1,15 @@
-🛒 **Blinkit Quick Commerce Analysis**
+🛒 #Blinkit Quick Commerce Analysis
 
 End-to-End Data Analytics Project | Excel · SQL · Python · Power BI
 Analyzing sales performance, customer behavior, and product insights for Blinkit to improve quick-commerce growth and operational efficiency.
 
-🎯 **Business Problem**
+🎯 ##Business Problem
 
 Quick-commerce platforms like Blinkit rely on speed + efficiency to drive customer satisfaction and retention. To stay competitive, businesses need insights into sales trends, product demand, customer preferences, and profitability.
 
 This project provides a 360° analysis of Blinkit’s operations—from raw dataset → cleaning → SQL insights → Python EDA → Power BI storytelling dashboard.
 
-🛠 **Tools & Technologies**
+🛠 ##Tools & Technologies
 
 1. Excel → Data cleaning, preparation, and formatting
 
@@ -19,7 +19,7 @@ This project provides a 360° analysis of Blinkit’s operations—from raw data
 
 4. Power BI → Interactive dashboard for storytelling and decision-making
 
-🗂 **Dataset**
+🗂 ##Dataset
 
 - File: Blinkit Dataset (CSV/Excel)
 
@@ -29,7 +29,7 @@ This project provides a 360° analysis of Blinkit’s operations—from raw data
 
 - Source: Open-source Blinkit Quick Commerce dataset (for analytics & learning purposes)
 
-🔍**Step-by-Step Workflow**
+🔍##Step-by-Step Workflow
 
 1. Excel Cleaning & Prep
 
@@ -63,13 +63,13 @@ This project provides a 360° analysis of Blinkit’s operations—from raw data
 
 - Grouped insights by Item Type, Outlet Location, and Fat Content
 
-4. Power BI Dashboard
+4. ##Power BI Dashboard
 
 - Built an executive dashboard to track KPIs:
 
 - Total Sales, Avg Sales per Outlet, Most Profitable Outlet, Top Product Categories
 
-**Visuals:**
+##Visuals:
 
 - Sales by Item Type
 
@@ -90,7 +90,7 @@ Here’s a snapshot of the interactive dashboard:
 ![Blinkit Dashboard](Images/dashboard.png)
 
 
-📁 **Project Folder Structure**
+## 📁Project Folder Structure
 
 Blinkit-Quick-Commerce-Analysis/
 ├── 📊 PowerBI/
@@ -106,7 +106,7 @@ Blinkit-Quick-Commerce-Analysis/
 │   ├── Project_Report.docx
 │   └── Dashboard_Screenshot.png
 
-✅ **Key Outcomes**
+## ✅ Key Outcomes
 
 - Delivered an end-to-end analytics pipeline from raw Blinkit dataset → cleaned → insights → dashboard
 
@@ -116,7 +116,7 @@ Blinkit-Quick-Commerce-Analysis/
 
 - Built a recruiter-ready portfolio project
 
-📌 **Future Enhancements**
+##📌 Future Enhancements
 
 - Predictive modeling: Forecast sales by Item/Outlet
 
