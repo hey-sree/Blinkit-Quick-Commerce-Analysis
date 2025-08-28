@@ -67,7 +67,7 @@ This project provides a **360° analysis** of Blinkit’s operations — from ra
 ## 📊 Power BI Dashboard
 Here’s a snapshot of the interactive dashboard:  
 
-![Blinkit Dashboard](Images/dashboard.png)
+![Blinkit Dashboard](https://github.com/hey-sree/Blinkit-Quick-Commerce-Analysis/blob/main/images/Dashboard_Screenshot.png?raw=true)
 
 ---
 
