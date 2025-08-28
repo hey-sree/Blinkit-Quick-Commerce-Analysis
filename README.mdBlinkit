@@ -92,6 +92,8 @@ Here’s a snapshot of the interactive dashboard:
 
 ## 📁Project Folder Structure
 
+![Blinkit Dashboard](https://github.com/hey-sree/Blinkit-Quick-Commerce-Analysis/blob/main/images/Dashboard_Screenshot.png?raw=true)
+
 Blinkit-Quick-Commerce-Analysis/
 ├── 📊 PowerBI/
 │   └── Blinkit_Dashboard.pbix
