@@ -69,26 +69,6 @@ Here’s a snapshot of the interactive dashboard:
 
 <img width="1356" height="795" alt="Dashboard_Screenshot png" src="https://github.com/user-attachments/assets/a11d8086-b26b-452f-88d7-95aae342c0fb" />
 
-
----
-
-## 📁 Project Folder Structure
-Blinkit-Quick-Commerce-Analysis/
-├── 📊 PowerBI/
-│ └── Blinkit_Dashboard.pbix
-├── 🐍 Python/
-│ └── blinkit_EDA.ipynb
-├── 🧮 SQL/
-│ └── Blinkit_Queries.sql
-├── 📈 Excel/
-│ └── blinkit_cleaned.xlsx
-├── 📑 Docs/
-│ ├── Project_Report.docx
-│ ├── Interview_QA.docx
-│ └── Dashboard_Screenshot.png
-└── README.md
-
-
 ---
 
 ## ✅ Key Outcomes
